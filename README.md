@@ -12,11 +12,11 @@ Available settings of the indicator:
 
 ![docs](docs/config.png)
 
-Time ranges defined in format:
+Time ranges must be defined in format:
 ```
 [HOUR:MIN]_[HOUR:MIN]_[COLOR],[HOUR:MIN]_[HOUR:MIN]_[COLOR]
 ```
-Each range is separate by comma (`,`). There are limit on count of ranges.
+Each range is separated by comma (`,`). There are no limit on count of ranges.
 
 For example:
 ```
