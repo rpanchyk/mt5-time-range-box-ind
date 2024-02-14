@@ -12,6 +12,19 @@ Available settings of the indicator:
 
 ![docs](docs/config.png)
 
+Time ranges defined in format:
+```
+[HOUR:MIN]_[HOUR:MIN]_[COLOR],[HOUR:MIN]_[HOUR:MIN]_[COLOR]
+```
+Each range is separate by comma (`,`). There are limit on count of ranges.
+
+For example:
+```
+23:00_08:00_clrLightGray,07:00_16:00_clrLightGreen
+```
+
+Color names can be found on official [MQL5 documentation](https://www.mql5.com/en/docs/constants/objectconstants/webcolors) page.
+
 ## Usage
 Make a trade decision using the indicator:
 
